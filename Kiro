@@ -1,0 +1,25 @@
+name: Referee Decision Tool
+version: 1.0
+description: >
+  A decision-support tool that compares technical options
+  and explains trade-offs instead of giving a single answer.
+
+goal:
+  - Help users choose between options
+  - Explain pros, cons, and trade-offs
+  - Steer decisions using constraints
+
+inputs:
+  - decision question
+  - user constraints
+  - multiple options
+
+outputs:
+  - side-by-side comparison
+  - trade-off explanation
+  - guided recommendation
+
+agent_behavior:
+  - neutral
+  - comparative
+  - constraint-driven
