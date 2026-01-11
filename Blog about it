@@ -1,0 +1,64 @@
+Introduction
+
+Most AI tools today focus on giving fast answers. While this is useful, real-world technical decisions are rarely about a single “correct” answer. Developers often need help choosing between multiple valid options, each with its own advantages and drawbacks.
+
+For Week 6 of the Kiro Heroes Challenge, I built “The Referee” — a decision-support tool that compares options, explains trade-offs, and guides users toward better choices instead of simply providing conclusions.
+
+Problem Statement
+
+Developers frequently face questions such as:
+
+Which API approach should I use?
+
+Which cloud service fits my constraints?
+
+Which tech stack is suitable for my team?
+
+The challenge is not the lack of information, but the lack of structured decision guidance. Most tools either overwhelm users with data or give opinionated answers without context.
+
+How the Tool Works
+
+The tool accepts:
+
+A decision question
+
+User constraints (team experience, budget, scale, delivery speed)
+
+Multiple options with scores
+
+Each option is evaluated using the same dimensions:
+
+Ease of use
+
+Cost
+
+Scalability
+
+Flexibility
+
+The tool then:
+
+Displays pros and cons for each option
+
+Calculates a score
+
+
+
+Role of Kiro in Development
+
+Kiro’s spec-driven development helped structure the agent’s behavior clearly:
+
+Neutral and unbiased comparisons
+
+Constraint-based reasoning
+
+Decision steering instead of direct answers
+
+
+
+Conclusion
+
+The Referee demonstrates how AI agents can guide users through complex decisions responsibly. Instead of replacing human judgment, it enhances it.
+
+This project aligns perfectly with the Kiro Heroes goal of Agent Steering — helping users choose wisely, not blindly consume information.
+
